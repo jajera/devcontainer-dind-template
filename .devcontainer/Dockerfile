@@ -1,5 +1,5 @@
 # Note: You can use any Debian/Ubuntu based image you want. 
-FROM docker.io/ubuntu:latest
+FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04
 
 # [Option] Install zsh
 ARG INSTALL_ZSH="true"
